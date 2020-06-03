@@ -1,5 +1,27 @@
-
+body{
+    background: #2E2E42;
+}
 body > div {
-    max-width: 800px;
-    margin: 100px auto;
+    max-width: 80vw;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.flex > div {
+    width: 100%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50pt;
+    color: white;
+    padding-top: 100px;
 }
